@@ -1,17 +1,1 @@
-# retro_racing
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🏎️ Flame 2D Racing GameUm jogo de corrida top-down 2D construído com Flutter e Flame Engine, focado em física vetorial realista com derrapagem (drift), simulação de áudio dinâmico de motor e feedback tátil por vibração.🎮 FuncionalidadesFísica Vetorial e Drift Realista: Decomposição de tração linear e velocidade lateral (slip), com redução de aderência ao acionar o freio de mão e geração de marcas de pneu (skid marks) no asfalto.Colisão com Geometria Exata: Sistema de detecção de guard-rails via cálculo de distância com sinal (signed distance function), mantendo quiques e atrito precisos tanto em retas quanto nas curvas.Áudio Dinâmico Responsivo: Rotação do motor mapeada via playbackRate e volume de acordo com aceleração e velocidade, além de sons dedicados para frenagem, derrapagem, batidas e contagem de largada.Feedback Háptico com Intensidade Variável: Integração com o plugin de vibração que modula tempo e amplitude de acordo com o impacto contra os guard-rails.Sistema de Corrida Completo:Contagem regressiva no grid (3, 2, 1, VAI!).Cronômetro por volta, tempo total e recorde de melhor volta.Verificação angular anti-trapaça (impede contagem de voltas ao dar ré sobre a linha de chegada).Painel final de bandeirada com opção de reinício imediato.Controles Híbridos: Suporte tanto para toques simultâneos na tela (pedais e botões direcionais via Listener) quanto teclado/joystick.⌨️ ControlesTeclado / GamepadAçãoTeclasGamepadAcelerarW ou Seta para CimaA ou Gatilho Direito (R2)Frear / RéS ou Seta para BaixoB ou Gatilho Esquerdo (L2)Virar à EsquerdaA ou Seta para a EsquerdaAnalógico EsquerdoVirar à DireitaD ou Seta para a DireitaAnalógico DireitoFreio de Mão (Drift)EspaçoBotão XReiniciar CorridaRStartMutar / Desmutar SomM—Touch (Mobile)Lado esquerdo: Setas direcionais para esterçamento do volante.Lado direito: Pedal verde (acelerador), pedal vermelho (freio/ré) e botão amarelo (freio de mão).
