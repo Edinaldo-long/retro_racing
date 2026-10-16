@@ -130,5 +130,5 @@ assets/
 <hr />
 
 <div align="center">
-  <p>Desenvolvido com em <strong>Flutter</strong> e <strong>Flame</strong></p>
+  <p>Desenvolvido em <strong>Flutter</strong> e <strong>Flame</strong></p>
 </div>
